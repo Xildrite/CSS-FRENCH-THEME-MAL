@@ -1,1 +1,368 @@
-# CSS-FRENCH-THEME-MAL
+@import url(https://dl.dropboxusercontent.com/s/pe42l8ujxerwh4z/anime.css);
+@import "https://dl.dropboxusercontent.com/s/uaeavnoe2z2ox4w/halloween2016.css";
+body {
+background-attachment: fixed;
+background-clip: border-box;
+background-color: black;
+background-image: url(https://i.imgur.com/aHftwIg.jpg);
+background-position: right 5%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#inlineContent {
+background: url("") no-repeat scroll 0 -26% transparent;
+display: inline-block !important;
+height: 120px !important;
+left: 0 !important;
+margin: auto !important;
+position: fixed !important;
+right: 0 !important;
+top: 0 !important;
+width: 1200px !important;
+z-index: -1 !important;
+}
+#list_surround {
+background: url("http://i.imgur.com/qSW52E0.png") no-repeat scroll 50% 1px transparent;
+font-size: 81.25%;
+line-height: 1;
+margin: 0 auto;
+padding-bottom: 10px;
+padding-top: 250px;
+width: 75% !important;
+}
+body {
+color: white;
+font-family: arial;
+Font-Weight: Bolder;
+}
+a {
+-moz-transition: all 0.25s ease-in-out 0s;
+color: white;
+text-decoration: none;
+text-shadow: none;
+}
+a:hover {
+color: red;
+text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+}
+.status_not_selected, .status_selected {
+border: 0 none !important;
+height: auto !important;
+padding: 0 8px;
+text-align: center !important;
+width: 16.667% !important;
+}
+.status_not_selected a, .status_selected a {
+background-color: rgb(51, 204, 255);
+border-color: rgba(48, 44, 64, 0.5);
+border-radius: 3px 3px 3px 3px;
+border-style: solid;
+border-width: 1px;
+display: block !important;
+font-weight: bold;
+padding: 8px;
+text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.status_selected a {
+background-color: rgba(239, 57, 40, 0.9);
+border-color: rgba(148, 0, 24, 0.5);
+}
+.status_not_selected a:hover {
+background-color: rgba(0, 134, 152, 0.6);
+border-color: rgba(0, 134, 152, 0.6);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.status_selected a:hover {
+background-color: rgba(225, 2, 8, 0.6);
+border-color: rgba(164, 16, 32, 0.6);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.table_header {
+background-color: rgba(53, 51, 55, 0.9);
+}
+.table_header:first-of-type {
+border-radius: 3px 0 0 0;
+}
+.table_header:nth-of-type(2) {
+text-align: left;
+}
+.table_header:last-of-type {
+border-radius: 0 3px 0 0;
+}
+.td1 {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(100, 97, 105, 0.6);
+}
+.td2 {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(111, 108, 116, 0.5);
+}
+tr:hover [class^="td"] {
+background-color: rgba(180, 32, 48, 0.6);
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+text-align: left;
+}
+noindex:-moz-any-link, tr:hover td.td1, tr:hover td.td2 {
+font-size: 15px;
+}
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border: 0 none;
+padding: 4px;
+text-align: center;
+vertical-align: middle;
+}
+.table_header, .td1, .td2, .category_totals {
+line-height: 30px;
+}
+.borderRBL {
+line-height: normal !important;
+}
+[cellspacing="0"] {
+line-height: 17px;
+}
+.category_totals {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(72, 64, 87, 0);
+border-radius: 0 0 3px 3px;
+color: rgba(51, 51, 51, 0);
+text-align: center;
+}
+.category_totals:hover {
+background-color: rgba(100, 97, 105, 0.6);
+color: #EEEEEE;
+}
+[class^="header_"] * {
+font-size: 19px;
+height: 60px;
+line-height: 24px;
+padding-bottom: 4px;
+text-align: right;
+vertical-align: bottom;
+}
+.header_title {
+border-radius: 4px 4px 4px 4px;
+color: white;
+display: inline-block;
+font-style: italic;
+height: auto;
+padding: 0 8px 0 0;
+}
+#grand_totals {
+background-color: rgba(100, 97, 105, 0.6);
+border: 0 none;
+border-radius: 3px 3px 3px 3px;
+color: #EEEEEE;
+line-height: 20px;
+min-height: 20px;
+padding: 8px;
+text-align: center;
+vertical-align: middle;
+}
+#copyright {
+background-color: transparent;
+border-radius: 3px 3px 3px 3px;
+color: #FFFFFF;
+line-height: 17px;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+}
+
+/* THUMBNAIL SETTINGS
+Settings for the thumbnails of covers seen on your list. Height and width control the size, while margin-left and top can be added or taken away to change the position. Change the border size, type, or color, with the first border code.*/
+.hide {
+height:30px;
+width:35px;
+margin-left:39px;
+margin-top:-40px;
+border:1px solid transparent;
+background-color:transparent;
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:110% 180%;
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+display:inline-block !important;
+position: absolute;
+}
+
+/*THUMBNAIL HOVER SETTING
+This is the setting for the cover when you point to a thumbnail. Move the cover's position with the margin codes. Change its size with the padding codes. */
+.hide:hover {
+margin-left:-140px;
+padding-right:150px;
+padding-top:220px !important;
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:105%;
+border-bottom-left-radius:8px;
+border-bottom-right-radius:8px;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+box-shadow:rgba(63, 52, 60, 0.55) 0 0 8px 8px;
+position:absolute;
+z-index:1;
+}
+
+
+/*THUMBNAIL HOVER FLICKER FIX
+If you reposition your covers, and notice flickering, color this red, then reload your layout. Notice where the red bar appears when you point to your covers. Move that box with this code, over the parts where you point and see flickering. Then change it back to transparent!
+*/
+.hide:hover:after {
+background: transparent;
+content: " ";
+height: 55px;
+left: 0;
+position: absolute;
+top: -3px;
+width: 215px;
+z-index: 20;
+}
+
+
+
+/*ANIMATION FOR ZOOM
+Change the timing of how long it takes for it zoom out here! Its set to .25 seconds by default.
+*/
+* {
+-webkit-transition:all 0.40s ease-in-out;
+transition:all s ease-in-out;
+}
+
+
+/*ROW WIDTH AND SPACING
+This will increase the height of your rows and move the anime title to the left. It might look funny on some layouts so you'll have to adjust it or ask for help! Height is the height, padding left is the space the anime title moves from the left.
+*/
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+height: 40px;
+padding-left: 42px;
+}
+/*
+Anime List only
+
+CURRENTLY WATCHING HEADER
+This is the header above currently watching/reading. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_cw {
+background-image:url(https://i.imgur.com/qxNIOJY.png);
+height: 50px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+COMPLETED HEADER
+This is the header above your anime/manga that's completed. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_completed {
+background-image:url(https://imgur.com/fbRzb0O.png);
+height: 50px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+ON-HOLD HEADER
+This is the header above your animes/mangas on-hold. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_onhold {
+background-image:url(https://imgur.com/mC6ukj3.png);
+height: 50px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+DROPPED HEADER
+This is the header above your dropped animes/mangas. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_dropped {
+background-image:url(https://imgur.com/5drO0bf.png);
+height: 50px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+PLAN TO WATCH HEADER
+This is the header above the anime/manga you plan to see or read on your list. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_ptw {
+background-image:url(https://imgur.com/z6g2Guu.png);
+height: 50px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+/*
+REMOVE HEADER COLOR
+You need this code to remove the default background colors from the header and override any related codes. You're supposed to use your own images or the default ones for the header, so this color is set to transparent so it won't get in the way. If you want the color back for some reason, remove this section.
+*/
+.header_title {
+background-color: transparent !important;
+}
+
+/*
+OTHER CODES
+Stuff I had to add after site changes. You need this otherwise the headers won't be visible.
+*/
+tbody
+{background-color: transparent;
+background-image: none;}
+
+
+/*
+REMOVE HEADER TEXT
+These codes remove the original text like "Completed" and "Currently Watching" from
+each category on the list. Some people will want the text gone so they can have their own custom logos. But if you want the text back, you have to remove this whole section. It shouldn't affect the images in any way.
+*/
+.header_title {
+color: gray !important;
+display: none !important;
+font-size: 1px !important;
+font-size: 0px !important;
+font-size: 0 !important;
+font-size
